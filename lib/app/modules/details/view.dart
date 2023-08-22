@@ -32,7 +32,7 @@ class DetailPage extends StatelessWidget {
                         homeCtrl.changeTask(null);
                         homeCtrl.editCtrl.clear();
                       },
-                      icon: Icon(Icons.arrow_back))
+                      icon: const Icon(Icons.arrow_back))
                 ],
               ),
             ),

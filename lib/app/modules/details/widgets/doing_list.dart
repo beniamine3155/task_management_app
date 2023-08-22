@@ -12,7 +12,7 @@ class DoingList extends StatelessWidget {
     return Obx(() => homeCtrl.doingTodos.isEmpty && homeCtrl.doneTodos.isEmpty
         ? Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Image.asset(

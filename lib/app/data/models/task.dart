@@ -6,7 +6,7 @@ class Task extends Equatable {
   final int icon;
   final List<dynamic>? todo;
 
-  Task(
+  const Task(
       {required this.title,
       required this.icon,
       required this.color,
